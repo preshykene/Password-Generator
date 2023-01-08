@@ -1,1 +1,1 @@
-This is a little project that takes users input for the password they'd like to be printed out randomly and it has exceptions on the number it shouldn't be below and exceed. 
+This is a little project that takes users input for the password they'd like to be printed out randomly and it has exceptions on the number, it shouldn't be below six and shouldn't exceed twenty. 
