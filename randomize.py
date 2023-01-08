@@ -1,9 +1,9 @@
 import random
 
-class MustNotLessThanSix():
+class MustNotLessThanSixOrEqualToZero():
     pass
 
-class MustNotBeMoreThanTwenty():
+class MustNotBeMoreThanTwentyOrEqualToZero():
     pass
 
 
@@ -18,13 +18,13 @@ def RandomPass():
     if length <= 6:
         try:
             print("Raising exception")
-            raise MustNotLessThanSix
+            raise MustNotLessThanSixOrEqualToZero
         except:
             print("Password should not be less than Six!!!")
     elif length >= 20:
         try:
             print("Raising exception")
-            raise MustNotBeMoreThanTwenty
+            raise MustNotBeMoreThanTwentyOrEqualToZero
         except:
             print("Password should not be more than Twenty")
     else:
